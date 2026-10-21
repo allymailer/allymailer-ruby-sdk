@@ -19,7 +19,7 @@ module AllyMailer
           # @return [EditorType, nil]
           attr_accessor :editor_type
 
-          # Параметр для вибору [шаблонізатора](https://docs.allymailer.com.ua/en/template-engines) — або
+          # Параметр для вибору [шаблонізатора](https://docs.allymailer.com.ua/ua/template-engines) — або
           # "simple", або "velocity", або "liquid", або "none". За замовчуванням — "simple".
           # @return [TemplateEngine, nil]
           attr_accessor :template_engine

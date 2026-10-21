@@ -32,7 +32,7 @@ module AllyMailer
       #   default ones of the same name
       attr_accessor :headers
 
-      def initialize(api_key, base_url: DEFAULT_BASE_URL, timeout: 30, user_agent: 'allymailer-ruby-sdk/1.0.0', platform: nil, headers: {})
+      def initialize(api_key, base_url: DEFAULT_BASE_URL, timeout: 30, user_agent: 'allymailer-ruby-sdk/1.1.1', platform: nil, headers: {})
         @api_key = api_key
         @base_url = base_url.sub(%r{/+\z}, '')
         @timeout = timeout

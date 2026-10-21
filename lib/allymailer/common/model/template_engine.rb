@@ -3,7 +3,7 @@
 module AllyMailer
   module Common
     module Model
-      # Параметр для вибору [шаблонізатора](https://docs.allymailer.com.ua/en/template-engines) — або
+      # Параметр для вибору [шаблонізатора](https://docs.allymailer.com.ua/ua/template-engines) — або
       # "simple", або "velocity", або "liquid", або "none". За замовчуванням — "simple".
       module TemplateEngine
         SIMPLE = 'simple'
